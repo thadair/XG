@@ -7,7 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+		<%= link_to "Home", root_path %>
+		<%= link_to "Research", research_path %>
+		<%= link_to "Publications", publications_path %>
+		<%= link_to "CV", cv_path %>
 <%= yield %>
 
 </body>
